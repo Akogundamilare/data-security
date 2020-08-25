@@ -10,9 +10,9 @@ define('SITE_DIR', '/aes.drive/');
 define('DB_PREFIX', 'aes_');
 
 define('DB_DRIVER', 'mysql');
-define('DB_HOST', 'localhost');
-define('DB_HOST_USERNAME', 'root');
-define('DB_HOST_PASSWORD', '');
+define('DB_HOST', $_ENV['DB_HOST']);
+define('DB_HOST_USERNAME', $_ENV['DB_USERNAME']);
+define('DB_HOST_PASSWORD', $_ENV['DB_PASS']);
 define('DB_DATABASE', 'aes_drive');
 
 define('SITE_NAME', 'aes.drive');

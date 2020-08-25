@@ -31,9 +31,13 @@ $dboptions = array(
     PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
 );
 
+$db_host = $_ENV['DB_HOST'];
+$db_username = $_ENV['DB_USERNAME'];
+$db_pass = $_ENV['DB_PASS'];
+
 //connect with the server
 try {
-    $con = new PDO('mysql:host=localhost;', 'root','');
+    $con = new PDO('mysql:host=' . $db_host . ';', $db_username, $db_pass);
 $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
