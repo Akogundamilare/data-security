@@ -13,7 +13,7 @@ define('DB_DRIVER', 'mysql');
 define('DB_HOST', getenv('DB_HOST'));
 define('DB_HOST_USERNAME', getenv('DB_USERNAME'));
 define('DB_HOST_PASSWORD', getenv('DB_PASS'));
-define('DB_DATABASE', 'aes_drive');
+define('DB_DATABASE', getenv('DB_NAME'));
 
 define('SITE_NAME', 'aes.drive');
 
