@@ -2,7 +2,7 @@
 
 
 // dont add a trailing / at the end
-define('HTTP_SERVER', 'https://data-security.herokuapp.com'); //us-cdbr-east-02.cleardb.com
+define('HTTP_SERVER', 'http://us-cdbr-east-02.cleardb.com');
 // add slash / at the end
 define('SITE_DIR', '/aes.drive/');
 
