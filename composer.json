@@ -1,0 +1,15 @@
+{
+    "name": "akogundamilare/data-security",
+    "description": "Data Security Project for MSc Thesis",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Abubakar Sadiq Hassan",
+            "email": "abubakarhassan59@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "silex/silex": "~1.1"
+    }
+}
