@@ -31,9 +31,9 @@ $dboptions = array(
     PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
 );
 
-$db_host = $_ENV['DB_HOST'];
-$db_username = $_ENV['DB_USERNAME'];
-$db_pass = $_ENV['DB_PASS'];
+$db_host = getenv('DB_HOST');
+$db_username = getenv('DB_USERNAME');
+$db_pass = getenv('DB_PASS');
 
 //connect with the server
 try {
